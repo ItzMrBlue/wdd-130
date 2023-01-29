@@ -1,0 +1,22 @@
+img{
+    width: 50%; 
+    text-align:center;
+    display: block;
+    margin: 0 auto;
+}
+body{
+    background-color: pink;
+}
+.header{
+    text-align:center;
+}
+.div2{
+    margin-inline-start:400px;
+    padding-inline-start:40px;
+}
+p{
+    text-align: center;
+}
+h1:hover{
+    color: white;
+}
