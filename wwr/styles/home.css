@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Mono:wght@300&display=swap');
+
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +11,7 @@ nav a{
     text-align: center;
     color:#493843;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1{
@@ -29,6 +34,10 @@ nav a{
 }
 body{
     background-color:#61988E;
+    font-size: 22px;
+    font-family: Lato, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 header{
@@ -41,10 +50,18 @@ nav a:hover{
 
 .book{
     background-color:#396E94;
+    font-size: 18px;
+    padding: 15px 30px; 
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join{
     background-color:#396E94;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius:5px;
 }
 
 .book:hover{
@@ -61,10 +78,17 @@ nav a:hover{
 
 .msg{
     background-color: #396E94;
+    line-height: 1.5em;
+    padding: 35px;
+
 }
 
 footer{
     background-color: #396E94;
+    padding: 25px 50px;
+    padding-top: 15px;
+    margin-top: 200px;
+    
 }
 
 
@@ -75,6 +99,9 @@ nav a:hover{
 
 .home-title{
     color:#396E94 ;
+    font-family: "Oswald",Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
@@ -93,17 +120,26 @@ h4{
     color:#396E94 ;
 }
 
+h2{
+    padding: 0;
+    margin: 0;
+}
+
 .join:hover
 {
     color:#396E94 ;
 }
 
 .msg h2{
-    color:#396E94 ;
+    color:black ;
+    font-family: Oswald;
 }
 
 .msg p{
-    color:#396E94 ;
+    color:black;
+    font-size: .8em;
+    padding-bottom: 15px;
+
 }
 
 footer{
@@ -124,6 +160,7 @@ footer a:hover{
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img{
@@ -133,6 +170,8 @@ footer a:hover{
 
 .book{
     text-decoration: none;
+    margin-top: 50px;
+
 }
 
 .join{
@@ -149,3 +188,30 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }   
+
+#logo_link{
+    padding-top: 5px;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card{
+    margin: 200px 0;
+}
+
+.camping-card{
+    margin: 200px 0;
+}
+
+.rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border:10px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
+}
