@@ -6,6 +6,10 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+nav{
+    display: flex;
+    justify-content: space-around ;
+}
 
 nav a{
     text-align: center;
@@ -42,6 +46,12 @@ body{
 
 header{
     background-color: #19381F;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.logo{
+    width: 80%;
 }
 
 nav a:hover{
@@ -154,9 +164,7 @@ footer a:hover{
     color:#396E94 ;
 }
 
-.logo{
-    width: 80px;
-}
+
 
 .icon{
     width: 80px;
