@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Mono:wght@300&display=swap');
+
+#river > img{
+    width: 100%;
+    margin-top: -100px;
+}
+
+body{
+    background-color:#61988E;
+    font-size: 22px;
+    font-family: Lato, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    left: 47.5%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around ;
+    z-index: 1;
+}
+
+#logo_link{
+    z-index: 1;
+}
+
+nav a{
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover{
+    background-color: #004643;
+}
+nav a:hover{
+    color:#396E94 ;
+}
+header{
+    background-color: #19381F;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+.logo{
+    width: 80%;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+footer {
+    background-color: #6f7364;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer{
+    color:#396E94 ;
+}
+
+footer a{
+    color:#396E94 ;
+}
+
+footer a:hover{
+    color:#396E94 ;
+}
+footer a{
+
+    text-decoration: none;
+}
+footer p {
+    font-size: 1.2em;
+} 
+footer p a:hover {
+    text-decoration: underline;
+} 
+footer .social img{
+    padding-top: 15px;
+}
+p, h2{
+    line-height: 50px;
+}
