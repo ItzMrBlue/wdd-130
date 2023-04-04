@@ -1,6 +1,7 @@
 main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
 }
 main img{
     width: 100%;
@@ -13,3 +14,4 @@ p{
     grid-column: 1/4;
     grid-row: 2/3;
 }
+
