@@ -1,3 +1,52 @@
+#logo_img{
+  width: 100px;
+}
+
+header{
+  display: grid;
+  grid-template-columns: 150px auto;
+
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+nav a{
+  padding: 35px;
+  background-color: white;
+
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+  background-color: #ffffff;
+
+}
+
+footer .social{
+  padding-top: 15px;
+}
+
+body{
+  background-color:#396E94;
+}
+
+header{
+  background-color:#ffffff;
+
+}
+
+nav a:hover{
+  background-color:#A0AECD;
+}
+
 /* Bordered form */
 form {
     border: 3px solid #ffffff;
