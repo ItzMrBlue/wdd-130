@@ -24,27 +24,7 @@
 
     <main>
         <h1> Contact us </h1>
-        <div id="feedback"></div>
-        <form action="/my-handling-form-page" method="post">
-            <ul>
-              <li>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="user_name" />
-              </li>
-              <li>
-                <label for="mail">Email:</label>
-                <input type="email" id="mail" name="user_email" />
-              </li>
-              <li>
-                <label for="msg">Message:</label>
-                <textarea id="msg" name="user_message"></textarea>
-              </li>
-              <li class="button">
-                <button type="submit">Send your message</button>
-              </li>
-            </ul>
-          </form>
-        <script>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeXBVCKov0O422t7fcOuy0TP_p77hnPZn9uzjpAHyzPSNcEaQ/viewform?embedded=true" width="640" height="959" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             // get the feedback div element so we can do something with it.
             const feedbackElement = document.getElementById('feedback');
             // get the form so we can read what was entered in it.
@@ -84,3 +64,25 @@
 </body>
 
 </html>
+
+<div id="feedback"></div>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+              <li>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name" />
+              </li>
+              <li>
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="user_email" />
+              </li>
+              <li>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message"></textarea>
+              </li>
+              <li class="button">
+                <button type="submit">Send your message</button>
+              </li>
+            </ul>
+          </form>
+        <script>
